@@ -18,7 +18,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 5vh;
-    height: 50vh;
+    height: 40vh;
     align-items: center;
 }
 
@@ -79,7 +79,7 @@ body {
 
  .skill {
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     border: 1px solid red;
     background-color: aliceblue;
     display: flex;
@@ -89,8 +89,55 @@ body {
  }
 
 .skillInfo, .skilltree {
-    border: 1px solid black;
     height: 50vh;
     width: 35%;
-    margin: 2vh;
+    box-shadow: 0 2px 2px 2px;
 }
+
+.skillText {
+    width: 80%;
+    text-align: left;
+    margin: 5vh;
+    padding: 5vh;
+}
+.skillInfo h1 {
+    color: #c1b283;
+    font-size: 50px;
+}
+.skillInfo p {
+    font-size: 20px;
+}
+
+
+.skilltree div {
+    text-align: left;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+.skills {
+    text-align: right;
+
+    color: white;  
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 90%; background-color: #93ae0c;}
+.js {width: 90%; background-color: #a0a490;}
+.react {width: 90%; background-color: #6c7f94;}
+
+
+ /* port */
+
+ .port {
+    height: 90vh;
+    width: 100%;
+ }
+
+ .port div {
+    width: 15vh ;
+    height: 15vh;
+    border: 1px solid black;
+ }
