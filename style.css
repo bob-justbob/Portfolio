@@ -17,11 +17,11 @@ h1 {
     font-weight: bold;
 }
 
-a:hover {
+/* a:hover {
     color: blue;
     border: 1px solid black;
     padding: 10px;
-}
+} */
   /* header  */
 body {
     width: 100%;
@@ -222,3 +222,14 @@ body {
    .eight {
     background-image: url("./img/good.jpg");
    }
+
+    /* project ended  */
+    /* footer  */
+
+    footer {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justz
+    }
